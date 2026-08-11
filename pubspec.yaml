@@ -13,21 +13,19 @@ dependencies:
   go_router: ^14.2.0
   dio: ^5.7.0
   moe_flutter_foundation:
-    git:
-      url: https://github.com/mindofemanizer/MOE-Flutter-Foundation.git
-      ref: master
+    path: ../MOE-Flutter-Foundation
   moe_flutter_commerce:
     git:
       url: https://github.com/mindofemanizer/MOE-Flutter-Commerce.git
-      ref: master
+      ref: main
   moe_flutter_payment:
     git:
       url: https://github.com/mindofemanizer/MOE-Flutter-Payment.git
-      ref: master
+      ref: main
   moe_flutter_inventory:
     git:
       url: https://github.com/mindofemanizer/MOE-Flutter-Inventory.git
-      ref: master
+      ref: main
 
 dev_dependencies:
   flutter_test:
@@ -38,4 +36,3 @@ topics:
   - starter
   - template
   - example
-
